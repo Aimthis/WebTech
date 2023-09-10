@@ -1,5 +1,5 @@
-const someName = prompt("Хэллоу! Напиши пожалуйтса свое имя")
-alert(greeting(someName))
+const someName = prompt("Хэллоу! Напиши пожалуйтса свое имя");
+greeting(someName);
 function greeting(name){
-    return `Здравствуй, ${name}. Заходи еще, буду рад тебя видеть снова.`
-}
+    console.log(`Здравствуй, ${name}. Заходи еще, буду рад тебя видеть снова.`)
+};
