@@ -1,12 +1,19 @@
 html{
     background-color: antiquewhite;
 }
+body{
+    width: 600px;
+    margin: 0 auto;
+}
 h1 {
     color: #000;
 }
 h2 {
-    color: red;
+    color: #a83c3c;
 }
 a {
     color: green;
+}
+a:hover{
+    color: blue;
 }
